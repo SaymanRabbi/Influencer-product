@@ -311,8 +311,13 @@ footer{
 }
 .footer-text i{
     color: white;
-    margin-left: 5px;
     font-size: 20px;
-    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.397);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 8px 0px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
