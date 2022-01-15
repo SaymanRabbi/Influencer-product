@@ -1,0 +1,71 @@
+/* --------footer end------ */
+/* -------responsive css------- */
+/* -------mobile part------- */
+@media (max-width: 688px) {
+    nav{
+        text-align: center;
+    }
+    .right-menu{
+        /* display: none; */
+        position: absolute;
+        top: 100px;
+        width: 90%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-310px);
+        margin-bottom: 20px;
+        transition: all .3s ease-in-out;
+    }
+    .toogle-menu{
+        display: block;
+    }
+    #sayman:checked ~ .right-menu{
+        transform: translateY(0px);
+    }
+    .right-menu ul li{
+        padding: 0px 5px;
+        font-size: 14px;
+    }
+   
+    .company-logo{
+        grid-template-columns: repeat(4,1fr);
+        width: 100%;
+        grid-column-gap: 0px;
+        justify-items: center;
+       }
+    .Hero{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 50px;
+    }
+    .collection-grab,.work-section-grab{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Hero-left{
+        order: 2;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+      
+    }
+    .Hero-right{
+        order: 1;
+      
+    }
+}
+/* -------tablet view----- */
+@media only screen and (min-width: 688px) and (max-width:992px){
+    .right-menu ul li{
+        padding: 0px 5px;
+        font-size: 14px;
+    }
+    .right-menu{
+        flex: 1.5;
+    }
+    .collection-grab{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
