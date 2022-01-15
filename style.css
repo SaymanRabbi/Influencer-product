@@ -37,6 +37,7 @@ nav{
 .right-menu ul{
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 .right-menu ul li{
     list-style: none;
@@ -153,6 +154,7 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, .2);
     margin: 0 auto;
     background-image: url(./imeges/hero2.svg);
     background-repeat: no-repeat;  
+    background-size: cover;
 }
 .Hero-right img{
     width: 100%;
@@ -192,6 +194,7 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, .2);
     grid-column-gap: 30px;
     margin-top: 30px; 
 }
+
 .collection-grab-card{
     height: 476px;
     padding: 15px;
@@ -199,6 +202,10 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, .2);
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     margin-bottom: 30px;
+    cursor: pointer;
+}
+.collection-grab-card:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .2);
 }
 .collection-grab-card img{
     width: 100%;
